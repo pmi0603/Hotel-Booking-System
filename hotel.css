@@ -1,0 +1,383 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.error{
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#body-con{
+  background-image:linear-gradient(to right , rgb(228, 209, 209),rgb(253, 212, 135));
+  
+  
+}
+
+.fa {  
+    padding-left: 12px;
+    padding-right:20px ; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  text-align: center;  
+    margin-top: 1% ; 
+    margin-left: 5%; 
+    margin-bottom: 3%;
+    font-size: 30px;  
+    width: 50px;  
+    text-decoration: none;
+    border-radius: 50%;
+    clear: both;
+  }  
+
+  .nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+  }
+
+
+
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.957);
+  color: white;
+  height: 100px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none ;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+.nav_link:hover {
+  color: cornflowerblue;
+  letter-spacing: 0.5em;
+  transition: all 0.9s ease;
+}
+
+#nav-logo {
+  width: 150px;
+  height: 90px;
+}
+
+.navbar ul li a {
+  margin-right: 120px;
+}
+
+
+#history{
+
+   /* border: 3px solid grey;  */
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 600px  ;
+  padding-bottom: 200px; 
+  font-size: 19px;
+  font-weight: 300;
+  font-family: 'poppins';
+color: rgb(0, 0, 0);
+
+}
+#about-heading{
+position: absolute;
+top:30%;
+left:5%;
+color:cornflowerblue;
+font-weight: 500;
+}
+
+#about-tag-heading{
+  position: absolute;
+  top:35%;
+  left:8%;
+  color: cadetblue;
+  font-weight:800 ;
+  
+}
+
+.hotel-img-container{
+  position: absolute;
+  left:60%;
+  top:30%;
+}
+
+.hotel-img{
+height: 359px;
+width: 255px;
+}
+
+.booking-container{
+  width:85%;
+  margin-left: 5%;
+  border-radius: 5px;
+ padding-left: 50px;
+ background-color:rgb(235, 226, 226); /*  //linear-gradient(to left, rgb(211, 237, 158), rgb(255, 176, 189)) */
+ box-shadow: 0px  3px 5px black ;
+}
+.booking{
+  padding-left: 42px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  margin-left: 30px;
+  margin-right: 55px;
+}
+
+#booking-heading{
+  background-color: transparent;
+  color: rgb(23, 22, 22);
+  font-family:'poppins';
+  font-weight: 800;
+
+  width:200px;
+ margin-left: -5%; 
+}
+
+#register-name{
+ margin-top: 20px;
+ outline: none;
+ border:none;
+ box-shadow: 3px 3px black;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ padding-left: 2px;
+}
+#booking-phonenumber{
+  margin-left: 20px;
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2px;
+}
+#checkin {
+  margin-left: 20px;
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2px;
+}
+#checkout{
+  margin-top:20px;
+  margin-left: 20px;
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2px;
+}
+
+#roomType{
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2px;
+}
+
+#roomCost{
+  margin-top:20px;
+  margin-left: 21px;
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2px;
+}
+#book-btn{
+  margin-left: 20px;
+  margin-top:30px;
+  outline: none;
+  border:none;
+  box-shadow: 3px 3px black;
+  background-color: #0D6EFD;
+  color: white;
+  font-weight: 300;
+  width: 130px;
+  padding:6px 6px;
+  border-radius: 5px;
+  
+  
+}
+
+
+
+#hotel-img1{
+  
+  box-shadow: 5px 5px 5px black;
+}
+
+#hotel-img2{
+  margin-top:12%;
+  margin-left: 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+
+
+#message{
+    padding: 7.35px  12.75px;
+}
+
+
+#form-contact{
+    display: flex;
+flex-direction: column;
+align-items: center;
+    width:500px;
+    height: 500px;
+    margin-top:10%;
+    padding:51px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 10%;
+    margin-left: 4px;
+    overflow: hidden;
+
+}
+
+
+#contact-container{
+   /* border: #c0ebf0 3px solid; */
+   margin-left: 140px;
+   width:70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+   
+}
+
+#contact-details{
+
+margin-top: 10%;
+background-color: rgb(156, 180, 235);
+  padding:  40px;
+height: 500px;
+box-shadow: 5px 5px 5px black;
+font-family: 'poppins';
+font-size: 16px;
+}
+
+#heading{
+margin-bottom: 40px;
+font-weight: bolder;
+}
+
+#telephone{
+  position: relative;
+margin-left: -16%;  
+margin-bottom: 40px;
+text-decoration: none;
+color:black
+}
+
+#mail{
+  position: relative;
+  margin-left: -12%;  
+margin-bottom: 40px;
+text-decoration: none;
+color:black
+}
+
+#add{
+margin-top: 40px;
+}
+
+#horiline{
+    clear: both;
+}
+
+.btn-primary{
+  position: relative;
+top: 70vmin;
+right: 45vmin;}
+
+.fa-instagram {  
+    background-image: linear-gradient(rgb(213, 28, 58), rgb(204, 35, 255), rgb(249, 237, 9));
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  
+  
+/* Footer styling */
+#footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  clear: both;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footer ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+#foot-logo {
+  width: 220px;
+  height: 110px;
+}
+
+#rights {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.fa-phone{
+    font-size: 22px;
+    position: relative;
+    top:1%;
+    left:-10%;
+    }
+
+  .fa-envelope{
+    font-size: 19px;
+    position: relative;
+    left:-10%;
+  }
+
+
+  
