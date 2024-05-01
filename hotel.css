@@ -405,6 +405,24 @@ font-weight:400;
 height:28px;
 }
 
+#register-name:hover{
+  box-shadow: -3px -3px 5px #93c7ff;
+}
+
+#booking-phonenumber:hover{
+  box-shadow: -3px -3px 5px #93c7ff;
+}
+
+#checkin:hover{
+  box-shadow: -3px -3px 5px #93c7ff;
+}
+#checkout:hover{
+  box-shadow: -3px -3px 5px #93c7ff;
+}
+#roomType:hover{
+  box-shadow: -3px -3px 5px #93c7ff;
+}
+
 #roomCost{
 margin-top:20px;
 margin-left: 21px;
