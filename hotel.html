@@ -46,26 +46,35 @@
 <div class="booking-container">
   <div class="booking">
     <h2 id="booking-heading">Book Now</h2>
- <form action="" class="booking-form">
-  <input type="text"  id="register-name" placeholder="FullName">
-   <input type="tel" id="booking-phonenumber" placeholder="PhoneNumber">
+ <form action="booking-form.php" target="_blank" class="booking-form" method="post" >
+  
+  <input type="text"  id="register-name" placeholder="FullName" name="name">
+           <span class="error" id="reg-name-error"></span>
+
+   <input type="tel" id="booking-phonenumber" placeholder="PhoneNumber" name="phonenumber">
+           <span class="error" id="phone-error"></span>
     
    <input type="text" placeholder="Check In Date"
-        onfocus="(this.type='date')" id="checkin"> 
+        onfocus="(this.type='date')" id="checkin" name="check-in-date"> 
+
+        <span class="error" id="indate-error"></span>
 
         <input type="text" placeholder="Check Out Date"
-        onfocus="(this.type='date')" id="checkout"><br>
+        onfocus="(this.type='date')" id="checkout" name="check-out-date"><br>
 
-   <select id="roomType" onchange="displayCost()">
+        <span class="error" id="outdate-error"></span>
+
+   <select id="roomType" onchange="displayCost()" name="roomtype">
     <option value="">Select Room Type</option>
-    <option value="standard" data-cost="2000">Standard Room</option>
-    <option value="deluxe" data-cost="3500">Deluxe Room</option>
+    <option value="standard" data-cost="2000" >Standard Room</option>
+    <option value="deluxe" data-cost="3500"  >Deluxe Room</option>
     <option value="suite" data-cost="5000">Suite</option>
 </select>
 
-<!-- <label for="roomCost">Room Cost:</label> -->
-<input type="text" id="roomCost" readonly>
- <input type="submit" value="Book" id="book-btn">
+<input type="text" id="roomCost" readonly name="roomcost" >
+ 
+<input type="submit" value="Book" id="book-btn">
+
 </form>
 
 </div>
